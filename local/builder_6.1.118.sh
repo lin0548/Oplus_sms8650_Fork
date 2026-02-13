@@ -10,7 +10,7 @@ echo "===== 欧加真SM8650通用6.1.118 A15 OKI内核本地编译脚本 By Cool
 echo ">>> 读取用户配置..."
 MANIFEST=${MANIFEST:-oppo+oplus+realme}
 read -p "请输入自定义内核后缀（默认：android14-11-o-g64180ab070e5）: " CUSTOM_SUFFIX
-CUSTOM_SUFFIX=${CUSTOM_SUFFIX:-android14-11-o-gca13bffobf09}
+CUSTOM_SUFFIX=${CUSTOM_SUFFIX:-android14-11-o-g64180ab070e5}
 read -p "是否启用susfs？(y/n，默认：y): " APPLY_SUSFS
 APPLY_SUSFS=${APPLY_SUSFS:-y}
 read -p "是否启用 KPM？(b-(re)sukisu内置kpm, k-kernelpatch next独立kpm实现, n-关闭kpm，默认：n): " USE_PATCH_LINUX
