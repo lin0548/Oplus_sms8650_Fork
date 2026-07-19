@@ -23,14 +23,14 @@ read -p "是否应用 lz4kd 补丁？(y/n，默认：n): " APPLY_LZ4KD
 APPLY_LZ4KD=${APPLY_LZ4KD:-n}
 read -p "是否启用网络功能增强优化配置？(y/n，默认：y): " APPLY_BETTERNET
 APPLY_BETTERNET=${APPLY_BETTERNET:-y}
-read -p "是否添加 BBR 等一系列拥塞控制算法？(y添加/n禁用/d默认，默认：n): " APPLY_BBR
-APPLY_BBR=${APPLY_BBR:-n}
+read -p "是否添加 BBR 等一系列拥塞控制算法？(y添加/n禁用/d默认，默认：y): " APPLY_BBR
+APPLY_BBR=${APPLY_BBR:-y}
 read -p "是否添加 Droidspaces 容器支持？(n禁用/s标准/e扩展，默认：n): " APPLY_DROIDSPACES
 APPLY_DROIDSPACES=${APPLY_DROIDSPACES:-n}
 read -p "是否启用三星SSG IO调度器？(y/n，默认：y): " APPLY_SSG
 APPLY_SSG=${APPLY_SSG:-y}
-read -p "是否启用Re-Kernel？(y/n，默认：n): " APPLY_REKERNEL
-APPLY_REKERNEL=${APPLY_REKERNEL:-n}
+read -p "是否启用Re-Kernel？(y/n，默认：y): " APPLY_REKERNEL
+APPLY_REKERNEL=${APPLY_REKERNEL:-y}
 read -p "是否启用内核级基带保护？(y/n，默认：y): " APPLY_BBG
 APPLY_BBG=${APPLY_BBG:-y}
 
